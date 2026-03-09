@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+    text-decoration: none;
+
+}
+ 
+body{
+    background-color: #FBF9E4 ;
+}
+
+.container__menu{
+    width: 100%;
+    height: 70px;
+    
+    padding: 0px 20px;
+}
+
+.menu{
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+
+nav{
+    height: 100%;
+}
+
+nav > ul{
+    height: 100%;
+    display: flex;
+}
+
+nav  ul  li{
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+
+nav > ul > li:first-child > a{
+    background-image: url(/img/home.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 40px;
+}
+
+nav > ul > li:first-child:hover > a{
+    background-image: url(/img/home.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+nav > ul > li> a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    transition: all 300ms ease;
+}
+
+nav > ul > li> a:hover{
+    transform: scale(1.1);
+    background: #122C4F;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+#selected{
+    transform: scale(1.1);
+    background-color: #122C4F;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+nav ul li ul{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background: beige;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 90px;
+    left: -5px;
+    padding: 14px 0px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 10;
+    transition: all 300ms ease;
+}
+
+nav ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    top: 70px;
+}
+
+nav ul li ul li a{
+    display: block;
+    color: black;
+    padding: 6px;
+    margin-left: 14px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 300ms ease;
+}
+
+
+nav ul li ul li a:hover{
+    background: #FBF9E4;
+    color: black;
+    transform: scale(1.1);
+    padding-left: 30px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+
+}
+
+
+.header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(/img/leon.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    min-height: 93vh;
+    display: block;
+   
+    
+}
+
+.header-content {
+    text-align: center;
+    color:white;
+}
+
+.header-content h1{
+    font-size: 100px;
+    line-height: 80px;
+    color:whitesmoke;
+    text-transform: uppercase;
+    margin-top: 210px;
+    margin-bottom: 90px;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+}
+
+.container .wrapper{
+    width: 60vw;
+    height: 75vh;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    margin: 5rem auto;
+    overflow: hidden;
+}
+
+.container .wrapper-holder{
+    display: grid;
+    grid-template-columns: repeat(5, 100%);
+    height: 100%;
+    width: 100%;
+    animation: slider 20s ease-in-out infinite alternate;
+}
+
+.container #slider-img-1 {
+    background-position: center;
+    background-color: burlywood;
+    background-size: cover;
+    background-image: url(/img/mamiferos/ballena.jpg);
+}
+
+.container #slider-img-2 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/mamiferos/cabra.jpg);
+}
+
+.container #slider-img-3 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/mamiferos/cebra.jpg);
+}
+
+.container #slider-img-4 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/mamiferos/elefante.jpg);
+}
+
+.container #slider-img-5 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/mamiferos/perezoso.jpg);
+}
+
+.container #slider-img-6 {
+    background-position: center;
+    background-color: burlywood;
+    background-size: cover;
+    background-image: url(/img/reptiles/camaleon.jpg);
+}
+
+.container #slider-img-7 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/reptiles/cocodrilo.jpg);
+}
+
+.container #slider-img-8 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/reptiles/lagarto.jpg);
+}
+
+.container #slider-img-9 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/reptiles/serpiente.jpg);
+}
+
+.container #slider-img-10 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/reptiles/tortuga.jpg);
+}
+
+ 
+.container #slider-img-11 {
+    background-position: center;
+    background-color: burlywood;
+    background-size: cover;
+    background-image: url(/img/aves/buho.jpg);
+}
+
+.container #slider-img-12 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/aves/aguila.jpg);
+}
+
+.container #slider-img-13 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/aves/flamenco.jpg);
+}
+
+.container #slider-img-14 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/aves/guacamaya.jpg);
+}
+
+.container #slider-img-15 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/aves/pinguino.jpg);
+}
+
+.container #slider-img-16 {
+    background-position: center;
+    background-color: burlywood;
+    background-size: cover;
+    background-image: url(/img/peces/beta.jpg);
+}
+
+.container #slider-img-17 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/peces/globo.jpg);
+}
+
+.container #slider-img-18 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/peces/koi.jpg);
+}
+
+.container #slider-img-19 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/peces/nemo.jpg);
+}
+
+.container #slider-img-20 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/peces/tiburon.jpg);
+}
+
+.container #slider-img-21 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/anfibios/Ajolote.jpg);
+}
+.container #slider-img-22 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/anfibios/Rana1.jpg);
+}
+.container #slider-img-23 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/anfibios/Rana2.jpg);
+}
+.container #slider-img-24 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/anfibios/Rana3.jpg);
+}
+
+.container #slider-img-25 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(/img/anfibios/Salamandra.jpg);
+}
+.container .button-holder .button{
+    background-color: rgb(195, 144, 144);
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: .3rem;
+}
+
+.container .button-holder{
+    position: absolute;
+    left: 45%;
+    bottom: 0%;
+}
+.button:hover{
+    box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.6);
+
+}
+
+
+@keyframes slider{
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(-100%);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-200%);}
+    40%{transform: translateX(-200%);}
+    50%{transform: translateX(-200%);}
+    60%{transform: translateX(-300%);}
+    70%{transform: translateX(-300%);}
+    80%{transform: translateX(-300%);}
+    90%{transform: translateX(0%);}
+    100%{transform: translateX(0%);}
+}
+
+.Texto1 h1{
+    font-size: 60px;
+    line-height: 80px;
+    color:rgb(137, 130, 85);
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    text-align: center;
+}
