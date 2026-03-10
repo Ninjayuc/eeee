@@ -43,7 +43,7 @@ nav  ul  li{
 }
 
 nav > ul > li:first-child > a{
-    background-image: url(/img/home.png);
+    background-image: url(../Yes/img/home.png);
     background-size: 40px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -51,7 +51,7 @@ nav > ul > li:first-child > a{
 }
 
 nav > ul > li:first-child:hover > a{
-    background-image: url(/img/home.png);
+    background-image: url(../Yes/img/home.png);
     background-size: 24px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -130,7 +130,7 @@ nav ul li ul li a:hover{
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(/img/leon.jpg);
+        url(../Yes/img/leon.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover ;
@@ -179,70 +179,70 @@ nav ul li ul li a:hover{
     background-position: center;
     background-color: burlywood;
     background-size: cover;
-    background-image: url(/img/mamiferos/ballena.jpg);
+    background-image: url(../Yes/img/mamiferos/ballena.jpg);
 }
 
 .container #slider-img-2 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/mamiferos/cabra.jpg);
+    background-image: url(../Yes/img/mamiferos/cabra.jpg);
 }
 
 .container #slider-img-3 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/mamiferos/cebra.jpg);
+    background-image: url(../Yes/img/mamiferos/cebra.jpg);
 }
 
 .container #slider-img-4 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/mamiferos/elefante.jpg);
+    background-image: url(../Yes/img/mamiferos/elefante.jpg);
 }
 
 .container #slider-img-5 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/mamiferos/perezoso.jpg);
+    background-image: url(../Yes/img/mamiferos/perezoso.jpg);
 }
 
 .container #slider-img-6 {
     background-position: center;
     background-color: burlywood;
     background-size: cover;
-    background-image: url(/img/reptiles/camaleon.jpg);
+    background-image: url(../Yes/img/reptiles/camaleon.jpg);
 }
 
 .container #slider-img-7 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/reptiles/cocodrilo.jpg);
+    background-image: url(../Yes/img/reptiles/cocodrilo.jpg);
 }
 
 .container #slider-img-8 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/reptiles/lagarto.jpg);
+    background-image: url(../Yes/img/reptiles/lagarto.jpg);
 }
 
 .container #slider-img-9 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/reptiles/serpiente.jpg);
+    background-image: url(../Yes/img/reptiles/serpiente.jpg);
 }
 
 .container #slider-img-10 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/reptiles/tortuga.jpg);
+    background-image: url(../Yes/img/reptiles/tortuga.jpg);
 }
 
  
@@ -250,102 +250,102 @@ nav ul li ul li a:hover{
     background-position: center;
     background-color: burlywood;
     background-size: cover;
-    background-image: url(/img/aves/buho.jpg);
+    background-image: url(../Yes/img/aves/buho.jpg);
 }
 
 .container #slider-img-12 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/aves/aguila.jpg);
+    background-image: url(../Yes/img/aves/aguila.jpg);
 }
 
 .container #slider-img-13 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/aves/flamenco.jpg);
+    background-image: url(../Yes/img/aves/flamenco.jpg);
 }
 
 .container #slider-img-14 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/aves/guacamaya.jpg);
+    background-image: url(../Yes/img/aves/guacamaya.jpg);
 }
 
 .container #slider-img-15 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/aves/pinguino.jpg);
+    background-image: url(../Yes/img/aves/pinguino.jpg);
 }
 
 .container #slider-img-16 {
     background-position: center;
     background-color: burlywood;
     background-size: cover;
-    background-image: url(/img/peces/beta.jpg);
+    background-image: url(../Yes/img/peces/beta.jpg);
 }
 
 .container #slider-img-17 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/peces/globo.jpg);
+    background-image: url(../Yes/img/peces/globo.jpg);
 }
 
 .container #slider-img-18 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/peces/koi.jpg);
+    background-image: url(../Yes/img/peces/koi.jpg);
 }
 
 .container #slider-img-19 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/peces/nemo.jpg);
+    background-image: url(../Yes/img/peces/nemo.jpg);
 }
 
 .container #slider-img-20 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/peces/tiburon.jpg);
+    background-image: url(../Yes/img/peces/iburon.jpg);
 }
 
 .container #slider-img-21 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/anfibios/Ajolote.jpg);
+    background-image: url(../Yes/img/anfibios/Ajolote.jpg);
 }
 .container #slider-img-22 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/anfibios/Rana1.jpg);
+    background-image: url(../Yes/img/anfibios/Rana1.jpg);
 }
 .container #slider-img-23 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/anfibios/Rana2.jpg);
+    background-image: url(../Yes/img/anfibios/Rana2.jpg);
 }
 .container #slider-img-24 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/anfibios/Rana3.jpg);
+    background-image: url(../Yes/img/anfibios/Rana3.jpg);
 }
 
 .container #slider-img-25 {
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/img/anfibios/Salamandra.jpg);
+    background-image: url(../Yes/img/anfibios/Salamandra.jpg);
 }
 .container .button-holder .button{
     background-color: rgb(195, 144, 144);
