@@ -169,10 +169,10 @@ nav ul li ul li a:hover{
 
 .container .wrapper-holder{
     display: grid;
-    grid-template-columns: repeat(6, 100%);
+    grid-template-columns: repeat(5, 100%);
     height: 100%;
     width: 100%;
-    animation: slider 20s ease-in-out infinite alternate;
+    animation: slider 25s ease-in-out infinite alternate;
 }
 
 .container #slider-img-1 {
@@ -180,6 +180,13 @@ nav ul li ul li a:hover{
     background-color: burlywood;
     background-size: cover;
     background-image: url(./img/mamiferos/cabra.jpg);
+}
+
+.container #slider-img-2 {
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    background-image: url(./img/mamiferos/ballena.jpg);
 }
 
 .container #slider-img-3 {
@@ -319,7 +326,7 @@ nav ul li ul li a:hover{
     background-position: center;
     background-size: cover;
     background-color: burlywood;
-    background-image: url(/.img/anfibios/Rana1.jpg);
+    background-image: url(./img/anfibios/Rana1.jpg);
 }
 .container #slider-img-23 {
     background-position: center;
