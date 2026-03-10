@@ -179,7 +179,7 @@ nav ul li ul li a:hover{
     background-position: center;
     background-color: burlywood;
     background-size: cover;
-    background-image: url(./img/ballena.jpg);
+    background-image: url(./img/mamiferos/ballena.jpg);
 }
 
 .container #slider-img-2 {
@@ -390,6 +390,7 @@ nav ul li ul li a:hover{
     margin-bottom: 90px;
     text-align: center;
 }
+
 
 
 
