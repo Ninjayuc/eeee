@@ -43,7 +43,7 @@ nav  ul  li{
 }
 
 nav > ul > li:first-child > a{
-    background-image: url(../Yes/img/home.png);
+    background-image: url(./img/home.png);
     background-size: 40px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -51,7 +51,7 @@ nav > ul > li:first-child > a{
 }
 
 nav > ul > li:first-child:hover > a{
-    background-image: url(../Yes/img/home.png);
+    background-image: url(./img/home.png);
     background-size: 24px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -130,7 +130,7 @@ nav ul li ul li a:hover{
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(../eeee/img/leon.jpg);
+        url(./img/leon.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover ;
@@ -390,4 +390,5 @@ nav ul li ul li a:hover{
     margin-bottom: 90px;
     text-align: center;
 }
+
 
