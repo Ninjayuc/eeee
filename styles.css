@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* esto es para q se aplique a todos*/ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+    text-decoration: none;
+
+}
+
+body{
+    background-color: #d2b86a;
+}
+
+
+
+
+
+/* aca se cambia la foto de el fondo (la del perro en este caso)*/ 
+
+
+
+/*  esto es para cambiar el color de el PERRO grandote*/ 
+
+.header-content {
+    text-align:  right;
+    color:white;
+    margin-right: 210px;
+
+}
+/*  con esto puse en medio la palabra, puedes modificarlo si quieres*/ 
+.header-content > h1{
+font-size: 120px;
+line-height: 90px;
+color: white;
+text-transform: uppercase;
+margin-top: 220px;
+margin-bottom: 3px;
+text-align: right;
+position: relative;
+left: 150px;
+-webkit-text-stroke: 3px gold;
+text-shadow: 0 0 10px gold;
+}
+
+.header-perro{ background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(./images/perro.jpg);
+    
+
+    background-position: center bottom center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    min-height: 65vh;
+    display: block;
+}
+.header-gato {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url(./images/gata.jpg);
+
+    background-position: center 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    min-height: 65vh;
+    display: block;
+}
+.header-elefante {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url(./images/elefante.jpg);
+
+    background-position: center 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    min-height: 65vh;
+    display: block;
+}
+.header-ballena {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url(./images/ballena.jpg);
+
+    background-position: center 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    min-height: 65vh;
+    display: block;
+}
+.header-murcielago {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url(./images/murcielago.jpg);
+
+    background-position: center 100%; 
+    background-repeat: no-repeat;
+    background-size: 120% auto; /* aumenta tamaño para que la parte inferior se vea más */
+    background-attachment: fixed; 
+    min-height: 65vh;
+    display: block;
+}
+.header-tortuga {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url(./images/tortuga.jpg);
+
+    background-position: center 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    min-height: 65vh;
+    display: block;
+}
+.header-serpiente {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url(./images/serpiente.jpg);
+
+    background-position: center 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    min-height: 65vh;
+    display: block;
+}
+.header-cocodrilo {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url(./images/cocodrilo.jpg);
+
+    background-position: center 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    min-height: 65vh;
+    display: block;
+}
+.header-lagarto {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url(./images/lagarto.jpg);
+
+    background-position: center 40%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    min-height: 65vh;
+    display: block;
+}
+.header-lagarto {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url(./images/lagarto.jpg);
+
+    background-position: center 40%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    min-height: 65vh;
+    display: block;
+}
+.header-camaleon {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url(./images/camaleon.jpg);
+
+    background-position: center 80%; /* centro horizontal, más hacia abajo vertical */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    min-height: 65vh;
+    display: block;
+}
+
+/*  esto no se toca, es el menu de arribita*/ 
+.container__menu{
+    width: 100%;
+    height: 70px;
+    backdrop-filter: blur(5px);
+    padding: 0px 20px;
+}
+
+.menu{
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+
+nav{
+    height: 100%;
+}
+
+nav > ul{
+    height: 100%;
+    display: flex;
+}
+
+nav  ul  li{
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+
+nav > ul > li:first-child > a{
+    background-image: url(./img/home.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 40px;
+}
+
+nav > ul > li:first-child:hover > a{
+    background-image: url(./img/home.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+nav > ul > li> a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    transition: all 300ms ease;
+}
+
+nav > ul > li> a:hover{
+    transform: scale(1.1);
+    background: #122C4F;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+#selected{
+    transform: scale(1.1);
+    background-color: #122C4F;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+nav ul li ul{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background: beige;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 90px;
+    left: -5px;
+    padding: 14px 0px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 10;
+    transition: all 300ms ease;
+}
+
+nav ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    top: 70px;
+}
+
+nav ul li ul li a{
+    display: block;
+    color: black;
+    padding: 6px;
+    margin-left: 14px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 300ms ease;
+}
+
+
+nav ul li ul li a:hover{
+    background: #FBF9E4;
+    color: black;
+    transform: scale(1.1);
+    padding-left: 30px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+
+}
+/*  aqui acaba*/ 
+
+
+/*  esto igual son textos */ 
+.texto1 {
+    display: flex;
+    align-items: flex-start;
+    background-color: #FFD580;
+    padding: 20px;
+    border-bottom: 3px solid #FFB700;
+    flex-wrap: wrap;
+}
+
+.imagen-con-texto {
+    text-align: center;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    flex-shrink: 0;
+}
+
+.texto1 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #FFB700;
+    box-shadow: 0 0 15px #FFC85C;
+}
+
+.subtitulo {
+    font-size: 14px; /* pequeño */
+    font-style: italic; /* opcional, para diferenciar */
+    color: #3A2F0B;
+    margin-top: 8px;
+}
+
+.texto1 p {
+    font-size: 16px; /* tamaño normal para lectura */
+    color: #3A2F0B;
+    line-height: 1.7;
+    text-align: justify;
+    flex: 1;
+    min-width: 250px;
+}
+
+/* Bloque de características */
+.texto2 {
+    background-color: #3A2F0B;
+    padding: 25px;
+    border-top: 3px solid #FFB700;
+}
+
+.texto2 hr {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #FFC85C;
+}
+
+.c {
+    text-align: center;
+    font-size: 28px; /* un poco más pequeño que antes para que no sea exagerado */
+    color: #FFB700;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #FFC85C;
+    margin-bottom: 15px;
+}
+
+.c1 {
+    font-size: 18px; /* tamaño menor que antes */
+    margin-left: 60px;
+    padding: 4px 0;
+    color: #FFE9A0;
+}
