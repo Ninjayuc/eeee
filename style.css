@@ -390,3 +390,8 @@ nav ul li ul li a:hover{
     margin-bottom: 90px;
     text-align: center;
 }
+
+.nombre{
+    text-align: center;
+    font-size: 18px;
+}
